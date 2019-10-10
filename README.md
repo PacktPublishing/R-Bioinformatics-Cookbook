@@ -4,7 +4,7 @@
 
 This is the code repository for [R Bioinformatics Cookbook](https://www.packtpub.com/business-other/r-bioinformatics-cookbook), published by Packt.
 
-**Use R and Bioconductor to perform RNAseq, genomics, data visualization, and bioinformatic analysis	**
+**Use R and Bioconductor to perform RNAseq, genomics, data visualization, and bioinformatic analysis**
 
 ## What is this book about?
 In  R Bioinformatics Cookbook, you encounter common and not-so-common challenges in the bioinformatics domain and solve them using real-world examples. The book guides you through varied bioinformatics analysis, from raw data to clean results. It shows you how to import, explore and evaluate your data and how to report it.	
