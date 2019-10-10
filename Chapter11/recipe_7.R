@@ -1,0 +1,1 @@
+usethis::use_travis()
