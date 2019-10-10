@@ -1,0 +1,1 @@
+hg17_snps.bam filter=lfs diff=lfs merge=lfs -text
