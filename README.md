@@ -10,13 +10,13 @@ This is the code repository for [R Bioinformatics Cookbook](https://www.packtpub
 In  R Bioinformatics Cookbook, you encounter common and not-so-common challenges in the bioinformatics domain and solve them using real-world examples. The book guides you through varied bioinformatics analysis, from raw data to clean results. It shows you how to import, explore and evaluate your data and how to report it.	
 
 This book covers the following exciting features:
-Employ Bioconductor to determine differential expressions in RNAseq data
-Run SAMtools and develop pipelines to find single nucleotide polymorphisms (SNPs) and Indels
-Use ggplot to create and annotate a range of visualizations
-Query external databases with Ensembl to find functional genomics information
-Execute large-scale multiple sequence alignment with DECIPHER to perform comparative genomics
-Use d3.js and Plotly to create dynamic and interactive web graphics
-Use k-nearest neighbors, support vector machines and random forests to find groups and classify data
+* Employ Bioconductor to determine differential expressions in RNAseq data
+* Run SAMtools and develop pipelines to find single nucleotide polymorphisms (SNPs) and Indels
+* Use ggplot to create and annotate a range of visualizations
+* Query external databases with Ensembl to find functional genomics information
+* Execute large-scale multiple sequence alignment with DECIPHER to perform comparative genomics
+* Use d3.js and Plotly to create dynamic and interactive web graphics
+* Use k-nearest neighbors, support vector machines and random forests to find groups and classify data
 
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1789950694/) today!
 
