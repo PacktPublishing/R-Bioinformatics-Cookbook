@@ -36,6 +36,10 @@ BiocManager::install()
 **Following is what you need for this book:**
 This book is for data scientists, bioinformatics analysts, researchers, and R developers who want to address intermediate-to-advanced biological and bioinformatics problems using a recipe-based approach. Working knowledge of the R programming language and some basic understanding of bioinformatics are mandatory.
 
+## Errata
+
+* Page 11 (Paragraph 1, line 4): **eset_dge <- edgeR::estimateDisp(eset_dge, design)** _should be_ **eset_dge <- edgeR::estimateDisp(count_dge, design)**
+
 
 With the following software and hardware list you can run all code files present in the book (Chapter 1-11).
 ### Software and Hardware List
