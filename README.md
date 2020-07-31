@@ -40,7 +40,7 @@ This book is for data scientists, bioinformatics analysts, researchers, and R de
 
 * Page 11 (Paragraph 1, line 4): **eset_dge <- edgeR::estimateDisp(eset_dge, design)** _should be_ **eset_dge <- edgeR::estimateDisp(count_dge, design)**
 
-
+ 
 With the following software and hardware list you can run all code files present in the book (Chapter 1-11).
 ### Software and Hardware List
 | Chapter | Software required | OS required |
