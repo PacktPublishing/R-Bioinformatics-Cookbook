@@ -31,7 +31,7 @@ count_dge <- edgeR::DGEList(counts = counts_of_interest, group = grouping)
 
 ### Perform differential expression 
 design <- model.matrix(~ grouping)
-eset_dge <- edgeR::estimateDisp(eset_dge, design)
+eset_dge <- edgeR::estimateDisp(count_dge, design)
 fit <- edgeR::glmQLFit(eset_dge, design)
 result <- edgeR::glmQLFTest(fit, coef=2)
 topTags(result)
