@@ -36,10 +36,6 @@ BiocManager::install()
 **Following is what you need for this book:**
 This book is for data scientists, bioinformatics analysts, researchers, and R developers who want to address intermediate-to-advanced biological and bioinformatics problems using a recipe-based approach. Working knowledge of the R programming language and some basic understanding of bioinformatics are mandatory.
 
-## Errata
-
-* Page 11 (Paragraph 1, line 4): **eset_dge <- edgeR::estimateDisp(eset_dge, design)** _should be_ **eset_dge <- edgeR::estimateDisp(count_dge, design)**
-
  
 With the following software and hardware list you can run all code files present in the book (Chapter 1-11).
 ### Software and Hardware List
@@ -48,6 +44,11 @@ With the following software and hardware list you can run all code files present
 | All | R | Windows, Mac OS X, and Linux (Any) |
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](http://www.packtpub.com/sites/default/files/downloads/9781789950694_ColorImages.pdf).
+
+
+## Errata
+
+* Page 11 (Paragraph 1, line 4): **eset_dge <- edgeR::estimateDisp(eset_dge, design)** _should be_ **eset_dge <- edgeR::estimateDisp(count_dge, design)**
 
 ### Related products
 * R Statistics Cookbook [[Packt]](https://www.packtpub.com/in/big-data-and-business-intelligence/r-statistics-cookbook) [[Amazon]](https://www.amazon.com/Statistics-Cookbook-performing-statistical-operations/dp/1789802563)
