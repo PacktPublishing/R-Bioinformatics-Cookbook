@@ -1,2 +1,0 @@
-sample1=ERR019652.small.bam
-sample2=ERR019653.small.bam
