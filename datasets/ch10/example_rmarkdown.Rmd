@@ -1,0 +1,33 @@
+---
+title: "R Markdown Report"
+author: "R Bioinformatics Cookbook"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+---
+  
+We can include text and create code blocks, the code gets executed and the result passed in
+
+```{r}
+x <- iris$Sepal.Width
+y <- iris$Sepal.Length
+
+lm(y ~ x, data = iris)
+```
+
+## We can format text using Markdown
+
+We can create many text formats including *italics* and **bold**,
+
+We can make lists
+
+1. First item
+2. Second item
+
+
+The whole document acts as a single R session - so variables created in earlier blocks can still be used later.
+
+Plots are presented within the document. Options for blocks can be set in the header
+
+```{r, fig.width=12 }
+plot(x, y)
+```

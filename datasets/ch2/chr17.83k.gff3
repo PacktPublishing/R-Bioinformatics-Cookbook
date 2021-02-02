@@ -1,0 +1,15 @@
+##gff-version 3
+##sequence-region   NC_000017.10 1 83257441
+#!genome-build Ensembl GRCh38.p12
+#!genome-version GRCh38
+#!genome-date 2013-12
+#!genome-build-accession NCBI:GCA_000001405.27
+#!genebuild-last-updated 2018-07
+NC_000017.10	havana	ncRNA_gene	64099	76866	.	-	.	ID=gene:ENSG00000280279;Name=AC240565.2;biotype=lincRNA;description=novel transcript;gene_id=ENSG00000280279;logic_name=havana;version=1
+NC_000017.10	havana	lnc_RNA	64099	76866	.	-	.	ID=transcript:ENST00000623180;Parent=gene:ENSG00000280279;Name=AC240565.2-201;biotype=lincRNA;tag=basic;transcript_id=ENST00000623180;transcript_support_level=5;version=1
+NC_000017.10	havana	exon	64099	65736	.	-	.	Parent=transcript:ENST00000623180;Name=ENSE00003759547;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00003759547;rank=5;version=1
+NC_000017.10	havana	exon	65830	65887	.	-	.	Parent=transcript:ENST00000623180;Name=ENSE00003755230;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00003755230;rank=4;version=1
+NC_000017.10	havana	exon	71366	71556	.	-	.	Parent=transcript:ENST00000623180;Name=ENSE00003756616;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00003756616;rank=3;version=1
+NC_000017.10	havana	exon	75814	75878	.	-	.	Parent=transcript:ENST00000623180;Name=ENSE00003755749;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00003755749;rank=2;version=1
+NC_000017.10	havana	exon	76723	76866	.	-	.	Parent=transcript:ENST00000623180;Name=ENSE00003756684;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSE00003756684;rank=1;version=1
+NC_000017.10	havana	ncRNA_gene	88641	118578	.	-	.	ID=gene:ENSG00000280136;Name=AC240565.1;biotype=lincRNA;gene_id=ENSG00000280136;logic_name=havana;version=2
