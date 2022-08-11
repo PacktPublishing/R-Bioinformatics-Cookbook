@@ -49,6 +49,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 ## Errata
 
 * Page 11 (Paragraph 1, line 4): **eset_dge <- edgeR::estimateDisp(eset_dge, design)** _should be_ **eset_dge <- edgeR::estimateDisp(count_dge, design)**
+* Multiple pages: The URL to the code is incorrect, please refer to the **Preface** for the correct one
 
 ### Related products
 * R Statistics Cookbook [[Packt]](https://www.packtpub.com/in/big-data-and-business-intelligence/r-statistics-cookbook) [[Amazon]](https://www.amazon.com/Statistics-Cookbook-performing-statistical-operations/dp/1789802563)
